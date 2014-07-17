@@ -9,3 +9,4 @@ RUN cd /tmp && \
     rmdir ./logstash-contrib-1.4.2  && \
     rm ./logstash-contrib-1.4.2.tar.gz
 
+CMD env | grep _ >> /etc/environment
