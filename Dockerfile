@@ -9,6 +9,6 @@ RUN cd /tmp && \
     rmdir ./logstash-contrib-1.4.2  && \
     rm ./logstash-contrib-1.4.2.tar.gz
 
-RUN cd /tmp && \
-    wget https://raw.githubusercontent.com/greem/logstash-contrib/master/lib/logstash/filters/elasticsearch.rb && \
-    mv ./elasticsearch.rb /opt/lib/logstash/filters/.
+#RUN cd /tmp && \
+#    wget https://raw.githubusercontent.com/greem/logstash-contrib/master/lib/logstash/filters/elasticsearch.rb && \
+#    mv ./elasticsearch.rb /opt/lib/logstash/filters/.
